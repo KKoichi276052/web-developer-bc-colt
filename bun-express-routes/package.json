@@ -1,0 +1,21 @@
+{
+  "name": "bun-ejs",
+  "module": "index.js",
+  "scripts": {
+    "start": "bun run index.js",
+    "watch": "bun --hot run index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "uuid": "^9.0.1"
+  }
+}
